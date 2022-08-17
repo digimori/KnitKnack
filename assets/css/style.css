@@ -16,6 +16,7 @@
 border-bottom: 1px solid #454545;
 z-index: 0;
 padding-top: 30px;
+padding-bottom: 20px;
 width: 100%;
 }
 
@@ -65,7 +66,7 @@ width: 100%;
     font-weight: 300;
     font-size: 25px;
     letter-spacing: 2px;
-    line-height: 15px;
+    line-height: 7px;
     padding-bottom: 30px;
 }
 .social {
@@ -106,7 +107,11 @@ width: 100%;
     margin: 0 auto;
     width: 100%;
     text-align: center;
-    margin-top: 30px;
+    background-color: #785964;
+}
+
+.list-inline {
+    color: #f1fffa;
 }
 
 .menucontainer {
@@ -124,8 +129,9 @@ width: 100%;
 }
 
 .menuitem {
-    margin-top: 30px;
-    height: 70px;
+    margin-top: 15px;
+    padding-top: 20px;
+    height: 50px;
     text-align: center;
 padding: 0;
 }
@@ -133,14 +139,14 @@ padding: 0;
 .menuitem a {
     width: 100%;
     text-decoration: none;
-    color: #785964;
+    color: #f1fffa;
     height: 70px;
 }
 
 .menuitem a i {
     padding-top: 22px;
     display: block;
-    color: #785964;
+    color: #f1fffa;
     font-size: 26px;
 }
 
@@ -191,4 +197,9 @@ footer {
 
 .footer-item {
     background-color: #785964;
+}
+
+.woolicon {
+    font-size: 20px;
+    color: #f1fffa;
 }
