@@ -53,9 +53,10 @@ width: 100%;
 .name {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
-    font-size: 35px;
+    font-size: 40px;
+    text-transform: uppercase;
     letter-spacing: 3px;
-    padding: 15px;
+    padding: 10px;
     opacity: 1;
     z-index: 1;
 }
@@ -66,7 +67,7 @@ width: 100%;
     font-weight: 300;
     font-size: 25px;
     letter-spacing: 2px;
-    line-height: 7px;
+    line-height: 14px;
     padding-bottom: 30px;
 }
 .social {
@@ -169,16 +170,36 @@ section {
     background-color: #f1fffa;
 }
 
-.intro-header, .intro-text {
+.intro-header {
+    text-transform: uppercase;
     text-align: center;
+       padding-top: 20px;
 }
 
+.intro-text {
+    text-align: center;
+    padding: 10px;
+}
+
+.intro-header h1 {
+
+    font-family: "raleway", sans-serif;
+}
+
+.intro-text h2 {
+    font-family: "Roboto condensed", sans-serif;
+}
 
 .introduction {
     text-align: center;
     color: #454545;
     font-family: "Raleway", sans-serif;
 
+}
+
+.mainpagetext {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 0.9rem;
 }
 
 
@@ -202,4 +223,61 @@ footer {
 .woolicon {
     font-size: 20px;
     color: #f1fffa;
+}
+
+.formcontainer {
+    padding-bottom: 20px;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+}
+
+.signupheader {
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.signuptext {
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+#footerurls {
+    list-style-type: none;
+    text-transform: uppercase;
+}
+
+#aboutsite {
+    text-align: center;
+    text-transform: uppercase;
+    color: #f1fffa;
+    font-family: "raleway", sans-serif;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+.copyright {
+    color:#785964;
+    font-weight: 600;
+    letter-spacing: 3px;
+    font-family: "Raleway",sans-serif;
+    font-size: 14px;
+    background-color: #f1fffa;
+    width: 100%;
+}
+
+.buildinfo {
+    list-style-type: none;
+}
+
+.footertext {
+    list-style-type: none;
+}
+
+footer i {
+    display: inline-block;
+    font-size: 15px;
+    padding-bottom: 5px;
+
 }
