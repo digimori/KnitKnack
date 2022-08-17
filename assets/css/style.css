@@ -1,32 +1,62 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&family=Roboto+Condensed:wght@300;400&display=swap');
 
-body {
+* {
     margin: 0;
     padding: 0;
-    background-color: #f1fffa;
 }
 
-.heading {
-    text-align: center;
-    margin-left: 0 auto;
+
+#header {
+    background-image: url('../images/nynne-schroder-nMdC42MrwN8-unsplash.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.7;
+    color: #f1fffa;
+border-bottom: 1px solid #454545;
+z-index: 0;
+padding-top: 30px;
+width: 100%;
 }
+
+.sheepheading {
+    padding-top: 50px;
+    background-color: #785964;
+   z-index: 0.5;
+   opacity: 0.5;
+   border-radius: 15px;
+   text-align: center;
+}
+
+.sheepheading-cont {
+    text-align: center;
+}
+
+.header-text {
+    color:#f1fffa;
+    text-align: center;
+    z-index: 1;
+    opacity: 1;
+}
+
+
 
 .searchbar {
     padding-top: 30px;
     margin: 0 auto;
     padding-bottom: 20px;
-}
-
-.form-control {
     width: 30%;
 }
 
+
 .name {
     font-family: "Raleway", sans-serif;
-    font-weight: 500;
-    font-size: 40px;
+    font-weight: 700;
+    font-size: 35px;
     letter-spacing: 3px;
     padding: 15px;
+    opacity: 1;
+    z-index: 1;
 }
 
 .title {
@@ -38,26 +68,26 @@ body {
     line-height: 15px;
     padding-bottom: 30px;
 }
-
-.fa-sheep {
-    color: #785964;
+.social {
+    margin: 0 auto;
 }
 
 .social-links {
-    padding-top: 50px;
-    margin: 0 auto;
-    text-align: right;
+    padding-bottom: 15px;
+    margin-top: 100px;
+    margin-right: 60px;
+    text-align: center;
 }
 
-.social-links li a {
-    width: 28px;
-    height: 28px;
+.social-links li a i {
+    width: 32px;
+    height: 32px;
     padding: 12px;
     border-radius: 50%;
-    font-size: 11px;
-    line-height: 5px;   
+    font-size: 13px;
+    line-height: 7px;   
     text-align: center;
-    color: #fafafa;
+    color: #f1fffa;
     background-color: #785964;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
@@ -66,16 +96,22 @@ body {
 }
 
 .social-links li a i:hover {
-    color: #93b7b3;
+    color: #785964;
+    background-color: #f1fffa;
 }
 
+
 /*Navigation bar*/
-.list-inline-item:not(:last-child) {
-    margin: 0;
+.navcontainer {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
 }
 
 .menucontainer {
     font-size: 0;
+    width: 100%;
 }
 
 #nav {
@@ -88,17 +124,17 @@ body {
 }
 
 .menuitem {
-    height: 100px;
+    margin-top: 30px;
+    height: 70px;
     text-align: center;
 padding: 0;
-
 }
 
 .menuitem a {
     width: 100%;
     text-decoration: none;
     color: #785964;
-    height: 100px;
+    height: 70px;
 }
 
 .menuitem a i {
@@ -119,8 +155,40 @@ padding: 0;
     letter-spacing: 2px;
 }
 
+
+
 /*Main body */
 
-.maincontent {
-    background-color: #d5c7bc;
+section {
+    background-color: #f1fffa;
+}
+
+.intro-header, .intro-text {
+    text-align: center;
+}
+
+
+.introduction {
+    text-align: center;
+    color: #454545;
+    font-family: "Raleway", sans-serif;
+
+}
+
+
+footer {
+    height: 100px;
+    background-color: #785964;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.footer-container {
+    background-color: #785964;
+    color: #f1fffa;
+}
+
+.footer-item {
+    background-color: #785964;
 }
