@@ -109,10 +109,24 @@ width: 100%;
     width: 100%;
     text-align: center;
     background-color: #785964;
+    padding-bottom: 10px;
 }
 
 .list-inline {
     color: #f1fffa;
+}
+
+.list-inline-item a:hover {
+    color: #454545;
+}
+
+.iconsize {
+    display: inline;
+    font-size: 18px;
+}
+
+.iconsize:hover {
+    color:#454545;
 }
 
 .menucontainer {
@@ -130,8 +144,8 @@ width: 100%;
 }
 
 .menuitem {
-    margin-top: 15px;
-    padding-top: 20px;
+    margin-top: 10px;
+    padding-top: 10px;
     height: 50px;
     text-align: center;
 padding: 0;
@@ -140,13 +154,14 @@ padding: 0;
 .menuitem a {
     width: 100%;
     text-decoration: none;
+    padding-bottom: 15px;
     color: #f1fffa;
     height: 70px;
 }
 
 .menuitem a i {
-    padding-top: 22px;
-    display: block;
+    padding-top: 11px;
+    display: inline;
     color: #f1fffa;
     font-size: 26px;
 }
