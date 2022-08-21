@@ -15,7 +15,7 @@
 <header>
 
     <div class="container-fluid" id="header">
-        <div class="row">
+        <div class="row align-items-center">
     <div class="col-md-2 col-lg-2 col-sm-12 search">
         <div class="input-group rounded searchbar">
             <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search" aria-describedby="search-addon" />
@@ -25,60 +25,61 @@
           </div>
         
     </div>
-    <div class="col-md-6 offset-1 col-sm-12 sheepheading">
-<h1 class="name uppercase">KnitKnack</h1> 
-<span id="footersignup"><h2 class="signupheader">Sign up for the monthly newsletter! <i class="fa fa-scarf"></i></h2></span>
-        <h2 class="title">Your Resource for All Things Knitting</h2>
-    </div>
+    <div class="col-md-6 offset-md-1 col-sm-12 sheepheading text-center">
+        <div class="cover-text">
+        <h1 class="name uppercase">Knit Knack</h1> 
+        <h2 class="title"><strong>Your Resource for All Things Knitting</strong></h2></div>
+</div>
     <div class="col-md-3 col-sm-12 social">
         <ul class="list-inline social-links">
             <li class="list-inline-item">
-                <a target="_blank" href="#">
+                <a target="_blank" href="#" aria-label="Link to Facebook page (Opens in new tab)">
                     <i class="fa fa-facebook" aria-hidden="true"></i>
                     <span class="sr-only">Facebook</span>
                 </a>
             </li>
             <li class="list-inline-item">
-                <a target="_blank" href="#">
+                <a target="_blank" href="#" aria-label="Link to Twitter page (opens in new tab)">
                     <i class="fa fa-twitter" aria-hidden="true"></i>
                     <span class="sr-only">Twitter</span>
                 </a>
             </li>
             <li class="list-inline-item">
-                <a target="_blank" href="#">
+                <a target="_blank" href="#" aria-label="Link to Instagram page (opens in new tab)">
                     <i class="fa fa-instagram" aria-hidden="true"></i>
                     <span class="sr-only">Instagram</span>
                 </a>
             </li>
             <li class="list-inline-item">
-                <a target="_blank" href="#">
+                <a target="_blank" href="#" aria-label="Link to Pinterest page (opens in new tab)">
                     <i class="fa fa-pinterest" aria-hidden="true"></i>
                     <span class="sr-only">Pinterest</span>
                 </a>
             </li>
             <li class="list-inline-item">
-                <a target="_blank" href="#">
+                <a target="_blank" href="#" aria-label="Link ot Youtube channel (opens in new tab)">
                     <i class="fa fa-youtube" aria-hidden="true"></i>
                     <span class="sr-only">Youtube</span>
                 </a>
             </li>
         </ul>
     </div>
-        </div></div>
+        </div></div></div>
+
 <!--Navigation Bar-->
 <div class="col-12 container-fluid navcontainer">
         <ul id="nav" class="list-inline">
-            <li class="list-inline-item col-3 col-sm-2 menuitem">
+            <li class="list-inline-item col-3 col-md-2 col-sm-4 menuitem">
                 <a class="active" href="/index.html" alt="Home"><i class="fa fa-home iconsize"></i> <span>Home </span> </a>
             </li>
-            <li class="list-inline-item col-3 col-md-2col-sm-2 menuitem">
-                <a href="/patterns.html"  alt="patterns"><i class="fa-solid fa-book-open iconsize"></i> <span>Pattern Library</span></a>
+            <li class="list-inline-item col-3 col-md-2 col-sm-4 menuitem">
+                <a href="/patterns.html"  alt="patterns"><i class="fa-solid fa-book-open iconsize"></i> <span>Patterns</span></a>
             </li>
-            <li class="list-inline-item col-3 col-md-2 col-sm-2 menuitem">
-                <a href="/howto.html"  alt="how-to"><i class="fa-solid fa-pencil"></i><span>Tutorials</span></a>
+            <li class="list-inline-item col-3 col-md-2 col-sm-4 menuitem">
+                <a href="/howto.html"  alt="how-to"><i class="fa-solid fa-pencil iconsize"></i><span>Tutorials</span></a>
             </li>
-            <li class="list-inline-item col-3 col-md-2 col-sm-2 menuitem">
-                <a href="/contact.html"  alt="contact"><i class="fa-solid fa-message"></i><span>Contact</span></a>
+            <li class="list-inline-item col-3 col-md-2 col-sm-4 menuitem contactlink">
+                <a href="/contact.html"  alt="contact"><i class="fa-solid fa-message iconsize"></i><span>Contact</span></a>
             </li>
 
         </ul>
@@ -91,7 +92,7 @@
 
 <body>
 
-<section class="container-fluid col-12">
+<section class="container-fluid col-12 text-center">
 <div class="maincontent"></div>
     <div class="row">
         <div class="col-10 offset-1">
@@ -154,15 +155,15 @@
     <h3 class="signuptext">Sending you the latest patterns and yarn releases every month!</h3>
 <form action="#" method="POST">
     <input type="email" name="email" placeholder="Enter e-mail address"> 
-    <input type="submit">
+    <input type="submit" value="Submit" id="submitbutton">
 </form>
 </div>
 </div>
 
     </div>
-    <div class="row container-fluid">
-        <div class="col-12"><p class="copyright">Copyright Knit Knack 2022</p>
-        
+    <div class="row container-fluid no-gutters">
+        <div class="col-12 copyright">
+            <p class="copyright-text">Copyright Knit Knack 2022</p>
         </div>
     </div>
 </footer>
