@@ -135,8 +135,6 @@ display: block;
     font-size: 18px;
 }
 
-
-
 .menucontainer {
     font-size: 0;
     width: 100%;
@@ -203,18 +201,21 @@ section {
     background-color: #f1fffa;
 }
 
-/* --- Main body -- Introduction section --- */
+.maincontent {
+    padding-bottom: 30px;
+}
 
+/* --- Main body -- Introduction section --- */
 
 .intro-header {
     text-transform: uppercase;
     text-align: center;
-       padding-top: 20px;
+    padding-top: 30px;
 }
 
 .intro-text {
     text-align: center;
-    padding: 10px;
+    padding: 5px;
 }
 
 .intro-header h1 {
@@ -225,15 +226,15 @@ section {
     font-family: "Roboto condensed", sans-serif;
 }
 
-.introduction {
-    text-align: center;
-    color: #454545;
-    font-family: "Raleway", sans-serif;
-}
-
 .mainpagetext {
     font-family: "Roboto Condensed", sans-serif;
     font-size: 0.9rem;
+    text-align: center;
+}
+
+.reasonstext {
+    margin: 0 auto;
+    width: 70%;
 }
 
 
@@ -342,3 +343,91 @@ footer i {
 
 /* --- Media Queries --- */
 
+
+#imageone {
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    height: 300px;
+    border: 2px solid #785964;
+    border-radius: 50%;
+    background-image: url('../images/quokkabottles-3qC7qGGMvkA-unsplash.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    clear:both;
+}
+
+#imagetwo {
+    width: 300px;
+    height: 300px;
+    border: 2px solid #785964;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    background-image: url("../images/argelis-disla-iI3WqzbuiaE-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    clear:both;
+}
+
+#imagethree {
+    width: 300px;
+    height: 300px;
+    border: 2px solid #785964;
+    border-radius: 50%;
+    max-width: 100%;
+    max-height: fit-content;
+    display: block;
+    margin: 0 auto;
+    background: url("../images/rocknwool-y7NBxZuL-_w-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    clear:both;
+}
+
+#imagefour {
+    width: 300px;
+    height: 300px;
+    border: 2px solid #785964;
+    border-radius: 50%;
+    max-width: 100%;
+    max-height: fit-content;
+    display: block;
+    margin: 0 auto;
+    background: url("../images/tony-sebastian-f0CHpQRF1Jo-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    clear:both;
+}
+
+.reasonsheading,
+.reasonstext {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.reasonsheading {
+    font-weight: 400;
+    font-family: "roboto condensed", sans-serif;
+}
+
+.reasonscontainer {
+    border-right:rgba(120, 89, 100, 0.5) 2px solid;
+}
+
+
+@media (max-width: 597px) {
+    .reasonscontainer {
+        border: none;
+    }
+    .reasonstext {
+        margin-bottom: 10px;
+    }
+    .searchbar {
+        margin: 0 auto;
+    }
+}
