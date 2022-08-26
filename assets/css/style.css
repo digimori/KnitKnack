@@ -11,6 +11,7 @@
 border-bottom: 1px solid #454545;
 padding-top: 30px;
 padding-bottom: 20px;
+margin-top: 30px;
 width: 100%;
     background-image: url('../images/nynne-schroder-nMdC42MrwN8-unsplash.jpg');
     background-position: center;
@@ -20,7 +21,17 @@ width: 100%;
     position: relative;
 }
 
+.stickyheader {
+        overflow: hidden;
+        background-color: #785964;
+}
 
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
 
 /* -- Header - Search Bar ----- */
 .searchbar {
@@ -47,12 +58,13 @@ width: 30%;
 /* -- Header text and container -- */
 
 .cover-text {
+    margin-top: 20px;
     font-size: 46px;
   letter-spacing: 4px;
-  padding-top: 40px;
+  padding-top: 38px;
   border-radius: 15px;
   background-color: rgba(120, 89, 100, 0.5);
-  color: rgba(241, 255, 250, 1);
+  color: #fffbf1;
 }
 
 .name {
@@ -83,6 +95,7 @@ width: 30%;
 .social {
     margin: 0 auto;
     padding-left: 40px;
+    text-decoration: none;
 }
 
 .social-links {
@@ -91,9 +104,11 @@ width: 30%;
     margin-right: 40px;
     margin-left: 50px;
     text-align: center;
+    text-decoration: none;
 }
 
 .social-links li a i {
+    text-decoration: none;
     width: 35px;
     height: 35px;
     padding-top: 13px;
@@ -104,7 +119,7 @@ width: 30%;
     line-height: 7px;   
 position: relative;
 display: block;
-    color: #f1fffa;
+    color: rgba(250, 235, 215, 1);
     background-color: #785964;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
@@ -114,7 +129,8 @@ display: block;
 
 .social-links li a i:hover {
     color: #785964;
-    background-color: #f1fffa;
+    background-color: rgba(250, 235, 215, 1);
+    text-decoration: none;
 }
 
 /*Navigation bar  --- General styling --*/
@@ -127,7 +143,7 @@ display: block;
 }
 
 .list-inline {
-    color: #f1fffa;
+    color: #fffbf1;
 }
 
 .iconsize {
@@ -198,11 +214,16 @@ padding: 0;
 /*Main body */
 
 section {
-    background-color: #f1fffa;
+    background-color: rgba(250, 235, 215, 0.822);
+}
+
+.colortest {
+    background-color: rgba(250, 235, 215, 0.822);
 }
 
 .maincontent {
     padding-bottom: 30px;
+    background-color: rgba(250, 235, 215, 0.979);
 }
 
 /* --- Main body -- Introduction section --- */
@@ -237,7 +258,6 @@ section {
     width: 70%;
 }
 
-
 /* --- Footer general styling --- */
 
 footer {
@@ -252,7 +272,7 @@ footer {
 
 .footer-container {
     background-color: #785964;
-    color: #f1fffa;
+    color: #fffbf1;
     padding-bottom: 10px;
 }
 
@@ -284,19 +304,18 @@ footer {
 #footerurls {
     list-style-type: none;
     text-transform: uppercase;
-    color:rgba(241, 255, 250, 1);
+    color:#fffbf1;
     padding-top: 5px;
 }
 
 #footerurls a {
-    color: #f1fffa;
-
+    color: #fffbf1;
 }
 
 #aboutsite {
     text-align: center;
     text-transform: uppercase;
-    color: #f1fffa;
+    color: #fffbf1;
     font-family: "raleway", sans-serif;
     font-size: 18px;
     letter-spacing: 2px;
@@ -329,7 +348,7 @@ footer i {
 }
 
 #submitbutton {
-    background-color: #f1fffa;
+    background-color: #fffbf1;
     color: #785964;
     font-size: 0.8em;
     font-weight: 600;
@@ -341,8 +360,7 @@ footer i {
 }
 
 
-/* --- Media Queries --- */
-
+/*----Images for home page ----*/
 
 #imageone {
     display: block;
@@ -420,7 +438,10 @@ footer i {
 }
 
 
-@media (max-width: 597px) {
+
+/*------Media Queries -------*/
+
+@media (max-width: 576px) {
     .reasonscontainer {
         border: none;
     }
@@ -431,3 +452,21 @@ footer i {
         margin: 0 auto;
     }
 }
+
+
+.cardcontainer {
+margin: 0 auto;
+}
+
+.card {
+    margin: 0 auto;
+    width: 300px;
+}
+
+.card-img-top {
+    max-height: 200px;
+    width: 100%;
+    height: 40vh;
+    object-fit: cover;
+}
+
