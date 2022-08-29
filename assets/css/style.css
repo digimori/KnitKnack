@@ -483,23 +483,38 @@ margin: 0 auto;
     padding-bottom: 20px;
 }
 
+.basics {
+    background-color: rgba(250, 235, 215, 1);
+}
 .beginnertuts {
-    width: 80%;
+    width: 900px;
     margin: 0 auto;
-    padding-top: 20px;
+}/*
+.videowrapper {
+    width: 90%;
+    margin: 0 auto;
 }
-
-iframe {
-    width: 400px;
-    height: 320px;
-}
-
 .videocontainer {
-    display: inline-block;
-    width: 33%;
-    margin-top: 10px;
+    background-color: #785964;
+    border-radius: 3px;
     padding: 10px;
     vertical-align: top;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+.desccontainer h3 {
+    text-align: center;
+    font-size: 16px;
+}
+.desccontainer h6 {
+    text-align: center;
+    font-size: 14px;
+}
+
+.desccontainer p {
+    text-align: center;
+    font-size: 12px;
 }
 
 .sectionheadings {
@@ -519,6 +534,7 @@ iframe {
 
 .sectionheadings h3 {
     margin: 0 auto;
+    width: 100%;
 }
 
 .topofpage {
@@ -532,26 +548,38 @@ iframe {
 
 }
 
-/*----Media Queries----*/
+/*----Media Queries----*
 @media only screen and (min-width:769px) and (max-width: 1024px) {
+    #videowrapper {
+    width: 90%;
+    background-color: rgba(250, 235, 215, 1);
+    }
     .videocontainer {
-        margin: 10px;
+        margin: 0 auto;
         position: relative;
         display: block;
         font-size: 1em;
         text-align: center;
+        width: 80%;
     }
     .videocontainer h6, p {
         display: none;
     } 
     .videocontainer h3 {
         font-size: 18px;
+        width: 100%;
     }
 }
 
-@media only screen and (min-width: 481px) and (max-width: 768px) {
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+    .beginnertuts {
+        margin: 0 auto;
+    }
+    #videowrapper {
+        padding: 10px;
+    }
     .videocontainer {
-        margin: 10px;
+        margin: 10px auto;
         position: relative;
         display: block;
         font-size: 1em;
@@ -560,6 +588,43 @@ iframe {
     .videocontainer h6, p {
         display: none;
     }
+    .videocontainer h3 {
+        font-size: 18px;
+        text-align: center;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .desccontainer {
+        margin-left: 60px;
+        text-align: center;
+
+    }
 }
 
-
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    .beginnertuts {
+        margin: 0 auto;
+    }
+    .videocontainer {
+        margin: 10 auto;
+        position: relative;
+        display: block;
+        width: 300px;
+    }
+    .videocontainer h6, p {
+        display: none;
+    }
+    .videocontainer h3 {
+        font-size: 12px;
+        text-align: center;
+        width: 100%;
+    }
+    .desccontainer {
+        margin: 0 auto;
+        text-align: center;
+    }
+    iframe {
+        width: 280px;
+        height: 150px;
+    }
+}
