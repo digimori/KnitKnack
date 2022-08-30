@@ -5,6 +5,15 @@
     padding: 0;
 }
 
+a {
+    text-decoration: none;
+    color: rgb(250 235 215);
+}
+
+a:visited {
+    color: rgb(250 235 215);
+}
+
 /* -------------------------------- Header ----- General ---- */
 
 #header {
@@ -64,7 +73,14 @@ width: 30%;
   padding-top: 38px;
   border-radius: 15px;
   background-color: rgba(120, 89, 100, 0.5);
-  color: #fffbf1;
+}
+
+.cover-text > a {
+    text-decoration: none;
+}
+
+.cover-text a:active {
+        color: rgb(250 235 215 1);
 }
 
 .name {
@@ -78,6 +94,15 @@ width: 30%;
     z-index: 1;
 }
 
+.name h1 a {
+    text-decoration: none;
+    color: rgb(250 235 215 1);
+}
+
+.name h1 a:visited {
+    color: rgb(250 235 215 1);
+}
+
 .title {
     text-align: center;
     font-family: "Roboto Condensed", sans-serif;
@@ -88,6 +113,15 @@ width: 30%;
     padding-bottom: 30px;
     position: relative;
     z-index: 1;
+}
+
+.title h2 a {
+    text-decoration: none;
+    color: rgb(250 235 215 1);
+}
+
+.title h2 a:visited {
+    color: rgb(250 235 215 1);
 }
 
 /* --- Header Social Links --- */
@@ -448,6 +482,7 @@ footer i {
 @media (max-width: 576px) {
     .reasonscontainer {
         border: none;
+        width: 200px;
     }
     .reasonstext {
         margin-bottom: 10px;
@@ -466,6 +501,7 @@ margin: 0 auto;
     margin: 0 auto;
     width: 300px;
     object-fit: cover;
+    border: 1px solid #785964;
 }
 
 .cardouter {
@@ -489,7 +525,7 @@ margin: 0 auto;
 .beginnertuts {
     width: 900px;
     margin: 0 auto;
-}/*
+}
 .videowrapper {
     width: 90%;
     margin: 0 auto;
@@ -497,23 +533,21 @@ margin: 0 auto;
 .videocontainer {
     background-color: #785964;
     border-radius: 3px;
-    padding: 10px;
     vertical-align: top;
     text-align: center;
     width: 50%;
+    padding: 10px;
     margin: 0 auto;
+justify-content: center;
 }
 .desccontainer h3 {
-    text-align: center;
     font-size: 16px;
 }
 .desccontainer h6 {
-    text-align: center;
     font-size: 14px;
 }
 
 .desccontainer p {
-    text-align: center;
     font-size: 12px;
 }
 
@@ -548,7 +582,7 @@ margin: 0 auto;
 
 }
 
-/*----Media Queries----*
+/*----Media Queries----*/
 @media only screen and (min-width:769px) and (max-width: 1024px) {
     #videowrapper {
     width: 90%;
@@ -626,5 +660,37 @@ margin: 0 auto;
     iframe {
         width: 280px;
         height: 150px;
+    }
+}
+
+/*------Contact Form -------*/
+.contact-heading {
+    font-family: "Raleway", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 40%;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #fffbf1;
+    background-color: #785964;
+    border: none;
+}
+
+/*----media query----*/
+@media(min-width: 992px) {
+    .center-form {
+        padding-top: 30px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 50%;
     }
 }
