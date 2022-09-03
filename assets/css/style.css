@@ -622,6 +622,7 @@ border: 1px solid #454545;
     font-family: "Raleway", sans-serif;
     font-weight: 600;
     font-size: 1em;
+    color: #454545;
  }
 
  .branding {
@@ -629,6 +630,7 @@ border: 1px solid #454545;
     font-family: "Roboto condensed", sans-serif;
     font-weight: 400;
     font-size: 1em;
+    color: #454545;
  }
 
  .card-text {
@@ -636,22 +638,81 @@ border: 1px solid #454545;
     font-family: "Roboto Condensed", sans-serif;
     font-weight: 500;
     font-size: 1.2em;
+    color: #454545;
  }
 
  #beginnerdesc {
+    font-family: "Roboto condensed", sans-serif;
     text-align: center;
     width: 70%;
     height: 120;
     margin: 0 auto;
     padding: 15px;
+    color: #454545;
+ }
+
+.help {
+    margin: 0 auto;
+    width: 80%;
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+
+ .help h4 {
+    font-family: "Raleway", sans-serif;
+    font-size: 1.1em;
+    font-weight: 700;
+    margin-top: 20px;
+    color: #454545;
+ }
+
+ .help p {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 1.2em;
+    font-weight: 400;
+    margin-bottom: 25px;
+    color: #454545;
+ }
+
+ .help-section {
+    text-align: center;
+    list-style-type: none;
+    color: #785964;
  }
  
+.help-link {
+    list-style-type: none;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.1em;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.help-link a {
+    color: #785964;
+    font-weight: 500;
+    font-size: 1.1em;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.help-link a:hover {
+    color: #454545;
+    text-decoration: underline;
+}
+
  /*------------------------------------------------------------------------------------Contact Form -------*/
 .contact-heading {
     font-family: "Raleway", sans-serif;
     font-weight: 300;
     margin-top: 25px;
     margin-bottom: 20px;
+    color: #454545;
+}
+
+.contact-subhead {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 1.2em;
+    color: #454545;
 }
 
 .center-form {
