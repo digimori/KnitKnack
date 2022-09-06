@@ -434,12 +434,16 @@ footer i {
     text-align: center;
     padding-top: 30px;
     font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    color:#454545;
 }
 
 .mainpagetext {
     font-family: "Roboto Condensed", sans-serif;
-    font-size: 0.9rem;
+    font-size: 1em;
     text-align: center;
+    font-weight: 550;
+    color: #454545;
 }
 
 .mainpagetext a {
@@ -453,19 +457,24 @@ footer i {
 }
 
 .reasonstext {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 1em;
+    font-weight: 550;
+    letter-spacing: 1px;
     margin: 0 auto;
     width: 70%;
-}
-
-.reasonsheading,
-.reasonstext {
+    color: #454545;
     padding-top: 10px;
     padding-bottom: 10px;
 }
 
 .reasonsheading {
-    font-weight: 400;
-    font-family: "roboto condensed", sans-serif;
+    font-weight: 600;
+    font-family: "raleway", sans-serif;
+    color: #454545;
+    font-size: 2em;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .reasonscontainer {
@@ -552,6 +561,7 @@ footer i {
     font-size: 1.8em;
     font-weight: 500;
     letter-spacing: 2px;
+    color: #454545;
  }
 
  #thingstolearn h2 {
@@ -559,6 +569,7 @@ footer i {
     font-size: 1em;
     font-weight: 400;
     letter-spacing: 1px;
+    color: #454545;
  }
 
  /*----------------------------------- Patterns page --------------------------------------*/
@@ -607,16 +618,28 @@ footer i {
 }
 
 .desccontainer h3 {
-    font-size: 16px;
+    font-family: "Raleway", sans-serif;
+        font-weight: 600;
+        font-size: 1em;
+        letter-spacing: 1.5px;
+        padding-left: 8px;
+        padding-right: 8px;
+        color: #faebd7;
 }
 .desccontainer h6 {
-    font-size: 14px;
+    font-size: 1em;
+    font-family: "Roboto Condensed", sans-serif;
+    padding-left: 2px;
+    padding-right: 2px;
+    color: #faebd7;
 }
 
 .desccontainer p {
-    font-size: 12px;
+    font-family: "Roboto Condensed",sans-serif;
+    font-size: 14px;
     padding-left: 4px;
     padding-right: 4px;
+    color: #faebd7;
 }
 
 
@@ -633,7 +656,10 @@ footer i {
     font-weight: 700;
     font-size: 1.8em;
     color: #454545;
+    width: 100%;
     letter-spacing: 2px;
+    margin: 0 auto;
+    padding-bottom: 5px;
 }
 
 .tutorialheading p {
@@ -659,7 +685,7 @@ footer i {
 .interadvtuts {
     width: 1024px;
     margin: 0 auto;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
 }
 
 .videocontainer {
@@ -678,7 +704,7 @@ border: 1px solid #454545;
 .iframe-container {
     position: relative;
     width: 100%;
-    padding-bottom: 50%; 
+    padding-bottom: 5%; 
     height: 280px;
  }
  .iframe-container iframe {
@@ -718,14 +744,27 @@ border: 1px solid #454545;
     color: #454545;
  }
 
- #beginnerdesc,
+ #beginnerdesc {
+    font-family: "Roboto condensed", sans-serif;
+    text-align: center;
+    font-size: 1.2em;
+    width: 70%;
+    height: 60px;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #454545;
+ }
+
  #inter-advdesc {
     font-family: "Roboto condensed", sans-serif;
     text-align: center;
+    font-size: 1.2em;
     width: 70%;
-    height: 120;
+    height: 80px;
     margin: 0 auto;
-    padding: 15px;
+    padding-top: 10px;
+    padding-bottom: 20px;
     color: #454545;
  }
 
@@ -780,10 +819,17 @@ border: 1px solid #454545;
     text-decoration: underline;
 }
 
+small {
+    font-family: "Roboto Condensed", sans-serif;
+    padding-bottom: 5px;
+    font-weight: 500;
+    font-size: 1em;
+}
+
  /*------------------------------------------------------------------------------------Contact Form -------*/
 .contact-heading {
     font-family: "Raleway", sans-serif;
-    font-weight: 300;
+    font-weight: 500;
     margin-top: 25px;
     margin-bottom: 20px;
     color: #454545;
@@ -810,7 +856,7 @@ button[type="submit"] {
 }
 
 /*----------------------------------------------------------------------------------------------------Media Queries----*/
-@media only screen and (min-width:769px) and (max-width: 1024px) {
+@media only screen and (min-width:768px) and (max-width: 1024px) {
     .beginnertuts {
 padding-left: 90px;
         width: 100%;
@@ -841,10 +887,12 @@ padding-left: 90px;
         width: 100%;
         margin: 0 auto;
         padding-bottom: 30px;
+        padding-left: 0px;
     }
     .interadvtuts {
         width: 100%;
         margin: 0 auto;
+        padding-left: 0px;
     }
     .videocontainer {
         display: block;
@@ -856,25 +904,33 @@ padding-left: 90px;
     .videocontainer h6, p {
         text-align: center;
         width: 100%;
-        padding-right: 60px;
+        margin: 0 auto;
     }
     .videocontainer h3 {
         font-size: 18px;
-        padding-right: 60px;
-        padding-top: 20px;
+        padding-top: 5px;
         text-align: center;
         width: 100%;
         margin: 0 auto;
     }
     .desccontainer {
-        margin-left: 60px;
         text-align: center;
+        width: 80%;
+        margin: 0 auto;
     }
     #submitbutton {
         width: 20%;
     }
     .card {
         margin: 20px;
+    }
+    .tutorialheading h3 {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .tutorialheading p {
+        width: 80%;
+        padding-left: 70px;
     }
 }
 
@@ -908,10 +964,7 @@ padding-left: 90px;
         margin: 0 auto;
         text-align: center;
     }
-    iframe {
-        width: 280px;
-        height: 200px;
-    }
+    
     #submitbutton {
         width: 20%;
     }
