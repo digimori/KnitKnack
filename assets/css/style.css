@@ -46,28 +46,6 @@ width: 100%;
     z-index: 1000;
 }
 
-/* -- --------------------------------------------Header - Search Bar ----- */
-.searchbar {
-    padding-top: 30px;
-    margin: 0 auto;
-    padding-bottom: 20px;
-    margin-left: 40px;
-}
-
-.search {
-width: 30%;
-}
-
-.rounded,
-.form-control {
-    opacity: 0.9;
-}
-
-#search-addon {
-    background-color: #785964;
-    color: #faebd7;
-}
-
 /* ---------------------------------------------------------------------------------------------- Header text and container -- */
 
 .cover-text {
@@ -1003,9 +981,6 @@ padding-left: 90px;
         }
         .reasonstext {
             margin-bottom: 10px;
-        }
-        .searchbar {
-            margin: 0 auto;
         }
     }
 
