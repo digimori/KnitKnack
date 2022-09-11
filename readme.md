@@ -43,12 +43,6 @@ The white background on the Patterns Card boxes was a stylistic choice based on 
 
 * Images used: I chose stock images from Unsplash (credited in their own section below) and overall chose from the same keywords such as "Knitting", "Knitwear", as it kept the imagery overall consistent. 
 
-
-
-
-
-
-
 # Credits:
 Bootstrap CDN (General layout, cards on Patterns page and responsive styling)
 W3Schools (Javascript for Sticky-Top on Navigation bar)
@@ -69,3 +63,59 @@ Nimble Needles
 ## Hosting:
 Github, Gitpod.
 
+
+# Code
+* Bootstrap CDN for the general layout and responsive styling such as the inbuilt card objects:
+
+[Bootstrap Cards](https://getbootstrap.com/docs/5.2/components/card/)
+
+[Bootstrap Grids](https://getbootstrap.com/docs/5.2/layout/grid/)
+
+ [StackOverflow](https://stackoverflow.com/) for queries if something was breaking, typically display: inline/block problems I was having. 
+
+ W3Schools for the JavaScript used to sticky the Navigation bar to the top of the page:
+[Javascript Code here](https://www.w3schools.com/howto/howto_js_navbar_sticky.asp)
+
+ FontAwesome and the other one for icons used throughout the navigation bars, reasons for knitting headersand footer 
+* [FontAwesome](https://fontawesome.com/)
+* [RemixIcon](https://github.com/Remix-Design/RemixIcon)
+
+ iframe embed codes taken directly from the youtube embeds themselves and later altered to meet validation requirements (as some code in their default embed such as frameborder do not pass validation).
+
+* Fonts - Googlefonts
+
+* Other general knowledge from the [CodeInstitute](https://learn.codeinstitute.net/ci_program/diplomainwebappdevelopment) course and from [Codecademy](https://www.codecademy.com/) (I have a Pro account).
+
+
+# Wireframes
+* [Homepage Wireframe](assets/wireframes/homepage.png) 
+* [Patterns Page](assets/wireframes/patternspage.png)
+* [Tutorial Page](assets/wireframes/howtopage.png)
+* [Contact Page](assets/wireframes/contactpage.png)
+
+As you can see some changes have been made along the way after some pointers from my mentor such as the sticky topped navigation and removal of the search bar.
+
+
+# Testing and Validation
+* Tested thoroughly through Google Devtools 
+* Validated through both [HTML Validator]() and [CSS Validator]()
+
+## Bugs and fixes:
+* Changed the page jump buttons from using the -button- code and instead implemented a form as nesting a button inside of an anchor tag was causing it to throw a fatal error in validation.
+- This change was suggested to me by a friend who is also a front-end developer.
+
+* Initially the iframes were not sitting central on the page and were constantly veering off to the left. This was fixed by playing with the margins in Chrome Devtools until it centered. I then copied the code from Devtools and implemented it into my actual code.
+
+* Removed the Search bar as it was not hooked up to the backend yet and therefore not a functional part of the site.
+
+* Altered the Z-index and contrast of the header as it was throwing up some issues on chrome dev tools. 
+
+* Media queried the cards on the patterns page as they were overlapping at certain breakpoints. 
+
+### Other Validation changes:
+* Removed excess DIV tags that I had put in once they were pointed out by thge validator tool.
+* Added "Noopener" and "Nofollow" to all external links at the advice of my mentor.
+* Changed SPAN classes to div containers as I would have been otherwise unable to use header tags within them. 
+
+## Deployment
+Deployed site through Github pages [over here](https://digimori.github.io/KnitKnack/).
