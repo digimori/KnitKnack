@@ -49,20 +49,17 @@ W3Schools (Javascript for Sticky-Top on Navigation bar)
 StackOverflow (Literally every query I had on why something was breaking)
 FontAwesome (Icons in footer, navigation bar, social links and front page)
 
-## Unsplash images: 
+## Images and Media:
+[Unsplash Images](https://unsplash.com/)
 
 
 ## Patterns links and images:
-Lovecrafts (https:www.lovecrafts.com for their external patterns)
+[Lovecrafts](https:www.lovecrafts.com)
 
 ## Youtube videos (Tutorial page):
-Sheep and Stitch
-Wool and the Gang
-Nimble Needles
-
-## Hosting:
-Github, Gitpod.
-
+* [Sheep and Stitch](https://www.youtube.com/c/sheepandstitch)
+* [Wool and the Gang](https://www.youtube.com/c/woolandthegang)
+* [Nimble Needles](https://www.youtube.com/c/NimbleNeedles)
 
 # Code
 * Bootstrap CDN for the general layout and responsive styling such as the inbuilt card objects:
@@ -80,9 +77,9 @@ Github, Gitpod.
 * [FontAwesome](https://fontawesome.com/)
 * [RemixIcon](https://github.com/Remix-Design/RemixIcon)
 
- iframe embed codes taken directly from the youtube embeds themselves and later altered to meet validation requirements (as some code in their default embed such as frameborder do not pass validation).
+* iframe embed codes taken directly from the youtube embeds themselves and later altered to meet validation requirements (as some code in their default embed such as frameborder do not pass validation).
 
-* Fonts - Googlefonts
+* Fonts - [Googlefonts](https://fonts.google.com/)
 
 * Other general knowledge from the [CodeInstitute](https://learn.codeinstitute.net/ci_program/diplomainwebappdevelopment) course and from [Codecademy](https://www.codecademy.com/) (I have a Pro account).
 
@@ -97,8 +94,9 @@ As you can see some changes have been made along the way after some pointers fro
 
 
 # Testing and Validation
-* Tested thoroughly through Google Devtools 
-* Validated through both [HTML Validator]() and [CSS Validator]()
+* Tested thoroughly through Google Devtools using varying page breakpoints and element selection on the "Inspect Element"
+* Tested responsiveness across several devices built into the Inspect Element tool
+* Validated through both [HTML Validator](https://validator.w3.org/) and [CSS Validator](https://jigsaw.w3.org/css-validator/)
 
 ## Bugs and fixes:
 * Changed the page jump buttons from using the -button- code and instead implemented a form as nesting a button inside of an anchor tag was causing it to throw a fatal error in validation.
@@ -108,7 +106,7 @@ As you can see some changes have been made along the way after some pointers fro
 
 * Removed the Search bar as it was not hooked up to the backend yet and therefore not a functional part of the site.
 
-* Altered the Z-index and contrast of the header as it was throwing up some issues on chrome dev tools. 
+* Altered the Z-index and contrast of the header as it was throwing up some contrast issues on chrome dev tools. 
 
 * Media queried the cards on the patterns page as they were overlapping at certain breakpoints. 
 
@@ -119,3 +117,27 @@ As you can see some changes have been made along the way after some pointers fro
 
 ## Deployment
 Deployed site through Github pages [over here](https://digimori.github.io/KnitKnack/).
+
+
+### To deploy and run locally: 
+* Create a [Github account](https://github.com/).
+* Use the Chrome browser
+* Download and install the Gitpod browser extension for Google Chrome.
+* Restart browser after installation has completed.
+* Log into Gitpod using your Github username and password.
+* Navigate into your desired Gitpod repository
+* Click the green "Gitpod" button on the top right of the repository file section.
+* This will open the project into a Gitpod workspace and can then be worked on in a local setting.
+
+### To deploy and run project on a local IDE:
+* Follow [This Link](https://github.com/digimori/KnitKnack) back to the Github project respository.
+* Select the menu item above the repository files labelled "Code".
+* To clone: Select the appropriate url or open to Git Desktop.
+* To view on a web IDE: Click the dropdown "Open in Web IDE" and choose the appropriate IDE. This dropdown can also be used to clone the code into VSCode IDE.
+* To clone into the Local IDE - in the terminal, type 'git clone' followed by the URL that can be copied from the aforementioned Code URL.
+
+## This deployment tutorial was reimplemented from the video on CodeInstitute on how to deploy your project and write a README.
+
+
+### Deployment issue fix:
+Navigation links were prefaced with /, ie: "/contact.html" and I realised that this is telling the directory to go up a level, so the pages were not linking on Github pages. This has since been removed and fixed, so it now functions as intended.
