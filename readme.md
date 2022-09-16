@@ -110,6 +110,8 @@ As you can see some changes have been made along the way after some pointers fro
 
 * Media queried the cards on the patterns page as they were overlapping at certain breakpoints. 
 
+* Fixed contact link on footer so that it would work on github, also removed the open in new tab as it's not an external part of the site.
+
 ### Other Validation changes:
 * Removed excess DIV tags that I had put in once they were pointed out by thge validator tool.
 * Added "Noopener" and "Nofollow" to all external links at the advice of my mentor.
