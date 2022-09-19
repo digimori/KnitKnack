@@ -23,7 +23,22 @@ Also through the use of page jump buttons provided, so that I can jump to beginn
 * To be able to easily contact the site owner for queries and collaboration requests through the form on the contact page.
 
 ### Features:
+[Navigation Bar](assets/images/readmeimages/navbarfeature.png)
+- I wanted a clean, clear navigation bar that would sticky to the top of the page to enable easy access when scrolling.
 
+[Introduction page]()
+- Like the LoveRunning project, I liked the idea of promoting your craft with a few central points.
+
+[Tutorial Page](assets/images/readmeimages/tutorialsfeature.png)
+- I decided to use sets of 3 for the tutorial videos and to keep them centered and in their own sections depending on difficulty.
+
+[Patterns Page](assets/images/readmeimages/linkstopatterns.png)
+[Pattern page jumps](assets/images/readmeimages/infosectionwjumps.png)
+- I reused the page jump concept from my tutorial pages. I went with a similar layout, except this time I went with four cards to showcase the patterns. 
+Each links to its own external pattern page.
+
+[Contact form](assets/images/readmeimages/contactfeature.png)
+- I wanted to make some method to contact the site owner for queries or commission and collaboration information, as is common in the knitting community and so pushed up a simple form that redirects to a thank you page when submitted.
 
 
 ### Design Choices: 
@@ -39,13 +54,14 @@ I used the colour picker in Adobe Photoshop to compare colours until I found one
 The font colour in the heading being white as opposed to the dark grey or beige used on other pages was due to the background being used in the header. 
 It blended in far too much with either of those colours and the white didn't look out of place as it matches the Search bar and the card containers on the patterns and contact form pages.
 
-//palette here//
+[Palette]()
 
 * Styling: I chose rounded corners on the card boxes because it just looks more professional and clean, like you've done something with it rather than just throwing some images on a page and calling it done. 
 The white background on the Patterns Card boxes was a stylistic choice based on the fact that many stock photos given by official pattern brands will often have white borders. It just looks generally tidier if you're unsure if you are allowed to alter a stock photo. 
 
 * Images used: I chose stock images from Unsplash (credited in their own section below) and overall chose from the same keywords such as "Knitting", "Knitwear", as it kept the imagery overall consistent. 
 
+* Extra information: All pages were created in Bootstrap with the exception of the video tutorials. Which is done in plain HTML and media queried to make it responsive. I did this as I wanted to challenge my knowledge and not rely solely on frameworks as this may become a problem when employed because they may well not use Bootstrap.
 
 # Wireframes
 * [Homepage Wireframe](assets/wireframes/homepage.png) 
@@ -60,21 +76,36 @@ As you can see some changes have been made along the way after some pointers fro
 * Tested responsiveness across several devices built into the Inspect Element tool
 * Validated through both 
 [HTML Validator](https://validator.w3.org/):
-//pagew links//
+[Index](assets/images/readmeimages/indexvalid.png)
+[Patterns](assets/images/readmeimages/patternsvalid.png)
+[Tutorials](assets/images/readmeimages/howtovalid.png)
+[Contact](assets/images/readmeimages/contactvalid.png)
+[Thank You](assets/images/readmeimages/thankyouvalid.png)
 
 and through
 [CSS Validator](https://jigsaw.w3.org/css-validator/)
+[CSS file](assets/images/readmeimages/cssvalid.png)
 
 * Tested how the pages look on multiple browsers:
-//Insert pics here//
+[Chrome](assets/images/responsiveexamples/desktopchrome.png)
+[Edge](assets/images/responsiveexamples/desktopedge.png)
+[Firefox](assets/images/responsiveexamples/desktopfirefox.png)
 
 * Tested how the pages looked on AmiResponsive:
-//image here//
+[Amiresponsive](https://ui.dev/amiresponsive)
+[Supporting Image](assets/images/readmeimages/responsivescreengrab.png)
 
 ## Manual Testing:
-* 
-* 
-* 
+* Testing Nav bar 
+* Tested contact form leading to thank you page
+* Made sure all links opened externally in new tabs
+* Made sure no images or videos were broken links 
+
+* Tested on my own mobile device to check how it looks and for functionality;
+[Mobile Test Index]()
+[Mobile Test Patterns]()
+[Mobile Test Tutorials]()
+[Mobile Test Contact]()
 
 
 ## Bugs and fixes:
