@@ -54,7 +54,7 @@ I used the colour picker in Adobe Photoshop to compare colours until I found one
 The font colour in the heading being white as opposed to the dark grey or beige used on other pages was due to the background being used in the header. 
 It blended in far too much with either of those colours and the white didn't look out of place as it matches the Search bar and the card containers on the patterns and contact form pages.
 
-[Palette]()
+[Palette - made in Abode Photoshop](assets/images/readmeimages/palette.png)
 
 * Styling: I chose rounded corners on the card boxes because it just looks more professional and clean, like you've done something with it rather than just throwing some images on a page and calling it done. 
 The white background on the Patterns Card boxes was a stylistic choice based on the fact that many stock photos given by official pattern brands will often have white borders. It just looks generally tidier if you're unsure if you are allowed to alter a stock photo. 
@@ -96,16 +96,10 @@ and through
 [Supporting Image](assets/images/readmeimages/responsivescreengrab.png)
 
 ## Manual Testing:
-* Testing Nav bar 
-* Tested contact form leading to thank you page
-* Made sure all links opened externally in new tabs
-* Made sure no images or videos were broken links 
-
-* Tested on my own mobile device to check how it looks and for functionality;
-[Mobile Test Index]()
-[Mobile Test Patterns]()
-[Mobile Test Tutorials]()
-[Mobile Test Contact]()
+* I tested that the Nav bar remains sticky to the top regardless of device or screen size. 
+* Tested contact form leading to thank you page upon submission of the form.
+* Made sure all links opened externally in new tabs.
+* Made sure no images or videos were broken links and fixed those that were (mostly directory errors which were fixed by removing the "/" at the start).
 
 
 ## Bugs and fixes:
@@ -125,6 +119,9 @@ and through
 * Fixed broken images that were present after pushing up to Github as the image links were prefaced with a "/" which meant the site would be searching in the incorrect directory.
 
 * Removed height and width in the HTML of the iframes as it was interfering with the responsiveness when shrunk down.
+
+* Altered margins for 320x768 view prior to submission as they were going offscreen to the right.
+
 
 ### Other Validation changes:
 * Removed excess DIV tags that I had put in once they were pointed out by thge validator tool.
